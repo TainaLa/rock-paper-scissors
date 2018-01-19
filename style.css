@@ -1,0 +1,52 @@
+body{
+	background-image: url(images/witewall_3.png);
+	margin-bottom: 60px;
+}
+h1{
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 30px;
+}
+h2{
+	
+	text-align: center;
+	color: red;
+}
+		
+.container{
+	margin: auto;
+    width: 50%;
+	border-style: dashed;
+	border-width: 5px;
+	padding-top: 50px;
+	padding-left: 60px;
+	
+	/*padding-right: 5px;*/	
+}
+#picHolder{
+	padding-bottom: 40px;
+	
+}
+#scoreKeeper{
+	padding: 20px;
+}
+
+img{
+	margin-top: 40px;
+	margin-right: 40px;
+	/*height: 100px;
+    width: 150px;*/
+   -webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   -o-transition: all 1s ease;
+   -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	/*transition: transform .2s;*/
+}
+img:hover{
+	width: 200px;
+  	height: 200px;
+
+}
+
+
